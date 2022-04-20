@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&family=Unica+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro&family=Unica+One&display=swap');
 
 * {
     margin: 0;
@@ -7,8 +7,23 @@
 }
 
 body {
-    font-family: Titillium Web, sans-serif;
+    font-family: Crimson Pro, serif;
     font-weight: 400;
-    color:#3D737E;
+    color:#4a4a4a;
     background-color: #F5F7F3;
+}
+
+/* headings and logo */
+
+h1, h2 {
+    font-family: Unica One, cursive;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #3D737E;
+}
+
+#logo {
+    float: left;
+    font-size: 300%;
+    margin-left: 50px;
 }
