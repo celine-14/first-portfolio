@@ -10,7 +10,10 @@ body {
     font-family: Crimson Pro, serif;
     font-weight: 400;
     color:#4a4a4a;
-    background-color: #F5F7F3;
+    width: 100%;
+    background: url(/assets/images/pexels-thirdman-6193853.jpg) no-repeat center top;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 /* headings and logo */
@@ -72,9 +75,10 @@ h1, h2 {
     padding-top: 20px;
 }
 
-#hero-image {
-    height: 650px;
-    width: 100%;
-    background: url(/assets/images/pexels-thirdman-6193853.jpg) no-repeat center top;
-    background-size: cover;
+/* choir biography */
+
+#choir-biography-outer {
+    height: 600px;
+    background-color: rgba(208, 141, 57, .6);
+    background-attachment: scroll;
 }
