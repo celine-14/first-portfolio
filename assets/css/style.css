@@ -178,3 +178,30 @@ footer {
         margin-right: 25px;
     }
 }
+
+/* for small screen size from 925px wide and down */
+@media screen and (max-width: 925px) {  
+    #header-box {
+        height: 100px;
+    }
+
+    #logo {
+        font-size: 200%;
+        line-height: 50px;
+        margin: 10px 10px 5px;
+    }
+    #menu {
+        line-height: 20px;
+        float: none;
+        display: inline-block;
+    }
+    
+    #menu-bar {
+        margin-left: 10px;
+        margin-right: 0;
+    }
+
+    #menu li {
+        margin-right: 38px;
+    }
+}
