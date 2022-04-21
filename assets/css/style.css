@@ -8,7 +8,7 @@
 
 body {
     font-family: Crimson Pro, serif;
-    color:#fff;
+    color: #fff;
     width: 100%;
     background: url(/assets/images/pexels-thirdman-6193853.jpg) no-repeat center top;
     background-size: cover;
@@ -17,7 +17,8 @@ body {
 
 /* headings and logo */
 
-h1, h2 {
+h1,
+h2 {
     font-family: Unica One, cursive;
     text-transform: uppercase;
     letter-spacing: 5px;
@@ -44,7 +45,8 @@ h1, h2 {
     text-transform: uppercase;
 }
 
-#menu, #logo {
+#menu,
+#logo {
     line-height: 70px;
     padding-top: 15px;
 }
@@ -91,7 +93,7 @@ h1, h2 {
     padding: 50px 300px;
 }
 
-#choir-biography h2{
+#choir-biography h2 {
     font-size: 300%;
     font-weight: 200;
     text-align: center;
@@ -105,4 +107,12 @@ h1, h2 {
     text-align: justify;
     line-height: 2em;
     margin-top: 50px;
+}
+
+/* gallery */
+
+#gallery {
+    height: 700px;
+    background-color: rgba(53, 49, 62, .8);
+    background-attachment: scroll;
 }
