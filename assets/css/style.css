@@ -10,7 +10,7 @@ body {
     font-family: Crimson Pro, serif;
     color: #fff;
     width: 100%;
-    background: url(/assets/images/pexels-thirdman-6193853.jpg) no-repeat center top;
+    background: url(/assets/images/pexels-thirdman-6193853.jpg) no-repeat right top;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -186,14 +186,16 @@ footer {
     }
 
     #logo {
-        font-size: 200%;
+        font-size: 190%;
         line-height: 50px;
         margin: 10px 10px 5px;
     }
+
     #menu {
+        font-size: 90%;
         line-height: 20px;
-        float: none;
-        display: inline-block;
+        float: left;
+        clear: left;
     }
     
     #menu-bar {
@@ -202,6 +204,10 @@ footer {
     }
 
     #menu li {
-        margin-right: 38px;
+        margin-right: 30px;
+    }
+
+    #hero-outer {
+        height: 800px;
     }
 }
