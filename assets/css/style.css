@@ -86,7 +86,6 @@ h2 {
 #choir-biography-outer {
     height: 700px;
     background-color: rgba(208, 141, 57, .8);
-    background-attachment: scroll;
 }
 
 #choir-biography {
@@ -111,8 +110,18 @@ h2 {
 
 /* gallery */
 
-#gallery {
-    height: 700px;
-    background-color: rgba(53, 49, 62, .8);
-    background-attachment: scroll;
+#photos-outer {
+    background-color: rgba(247, 248, 246, .8);
+    padding: 80px 200px 30px;
+}
+
+#photos {
+    clear: both;
+    line-height: 100px;
+    column-count: 3;
+    column-gap: 50px;
+}
+#photos > img {
+    width: 100%;
+    border-radius: 5px;
 }
