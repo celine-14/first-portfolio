@@ -212,7 +212,7 @@ footer {
     }
 
     #choir-biography {
-        padding: 1px 50px 25px;
+        padding: 1px 20px 25px;
     }
 
     #choir-biography h2 {
@@ -222,5 +222,15 @@ footer {
     #choir-biography p {
         font-size: 100%;
         margin-top: 20px;
+    }
+
+    #photos-outer {
+        padding: 40px 20px 20px;
+    }
+    
+    #photos {
+        column-count: 2;
+        column-gap: 20px;
+        line-height: 60px;
     }
 }
