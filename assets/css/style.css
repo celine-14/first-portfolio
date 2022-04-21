@@ -162,22 +162,19 @@ footer {
 /* for medium screen size from 1000px wide and down */
 @media screen and (max-width: 1000px) {
     #header-box {
-        height: 120px;
+        height: 80px;
     }
 
-    #logo {
-        line-height: 90px;
+    #logo, #menu {
+        line-height: 80px;
     }
-    #menu {
-        clear: both;
-        padding: 0;
-        line-height: 0;
+
+    #menu-bar {
+        margin-right: 25px;
     }
 
     #menu li {
-        float: none;
-        display: inline-block;
-        margin-left: 58px;
-        margin-right: 0;
+        margin-left: 0;
+        margin-right: 25px;
     }
 }
