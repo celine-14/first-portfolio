@@ -31,6 +31,11 @@ h1, h2 {
     margin-left: 50px;
 }
 
+#header-box {
+    background-color: #F7F8F6;
+    height: 100px;
+}
+
 /* navigation links */
 
 #menu {
