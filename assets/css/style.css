@@ -171,21 +171,8 @@ footer {
     }
 }
 
-/* for small screen size from 925px wide and down */
+/* for medium and small screen size from 925px wide and down */
 @media screen and (max-width: 925px) {  
-    #logo {
-        font-size: 180%;
-        line-height: 50px;
-        margin: 10px 10px 5px;
-    }
-
-    #menu {
-        font-size: 90%;
-        line-height: 20px;
-        float: left;
-        clear: left;
-    }
-    
     #menu-bar {
         margin-left: 15px;
         margin-right: 0;
@@ -227,6 +214,21 @@ footer {
     }
 }
 
+/* for small screen size from 725px wide and down */
+@media screen and (max-width: 725px) {  
+    #logo {
+        font-size: 180%;
+        line-height: 50px;
+        margin: 10px 10px 5px;
+    }
+
+    #menu {
+        font-size: 90%;
+        line-height: 20px;
+        float: left;
+        clear: left;
+    }
+     
 /* for small screen size from 350px wide and down */
 @media screen and (max-width: 350px) {
     #logo {
