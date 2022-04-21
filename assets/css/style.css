@@ -15,6 +15,7 @@ body {
     background: url("../images/pexels-thirdman-6193853.jpg") no-repeat right top;
     background-size: cover;
     background-attachment: fixed;
+    min-height: 100%;
 }
 
 #contact-background {
