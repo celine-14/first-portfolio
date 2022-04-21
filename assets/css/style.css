@@ -210,4 +210,17 @@ footer {
     #hero-outer {
         height: 800px;
     }
+
+    #choir-biography {
+        padding: 1px 50px 25px;
+    }
+
+    #choir-biography h2 {
+        font-size: 190%;
+    }
+
+    #choir-biography p {
+        font-size: 100%;
+        margin-top: 20px;
+    }
 }
