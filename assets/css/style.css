@@ -12,13 +12,13 @@ body {
 }
 
 #index-background {
-    background: url('/assets/images/pexels-thirdman-6193853.jpg') no-repeat right top;
+    background: url("../images/pexels-thirdman-6193853.jpg") no-repeat right top;
     background-size: cover;
     background-attachment: fixed;
 }
 
 #contact-background {
-    background: url('/assets/images/pexels-thirdman-6194031.jpg') no-repeat center bottom;
+    background: url("../images/pexels-thirdman-6194031.jpg") no-repeat center bottom;
     background-size: cover;
     height: 1000px;
 }
