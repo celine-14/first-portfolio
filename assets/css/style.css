@@ -34,6 +34,7 @@ h2 {
 #header-box {
     background-color: #F7F8F6;
     height: 100px;
+    width: 100%;
 }
 
 /* navigation links */
@@ -47,8 +48,7 @@ h2 {
 
 #menu,
 #logo {
-    line-height: 70px;
-    padding-top: 15px;
+    line-height: 100px;
 }
 
 #menu li {
@@ -130,4 +130,20 @@ h2 {
 footer {
     background-color: #F7F8F6;
     height: 100px;
+    width: 100%;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 150%;
+    color: #37454D;
+    line-height: 100px;
+    padding: 0 50px;
 }
