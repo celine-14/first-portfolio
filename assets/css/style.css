@@ -161,14 +161,6 @@ footer {
 
 /* for medium screen size from 1000px wide and down */
 @media screen and (max-width: 1000px) {
-    #header-box {
-        height: 80px;
-    }
-
-    #logo, #menu {
-        line-height: 80px;
-    }
-
     #menu-bar {
         margin-right: 25px;
     }
@@ -181,12 +173,8 @@ footer {
 
 /* for small screen size from 925px wide and down */
 @media screen and (max-width: 925px) {  
-    #header-box {
-        height: 100px;
-    }
-
     #logo {
-        font-size: 190%;
+        font-size: 180%;
         line-height: 50px;
         margin: 10px 10px 5px;
     }
@@ -199,7 +187,7 @@ footer {
     }
     
     #menu-bar {
-        margin-left: 10px;
+        margin-left: 15px;
         margin-right: 0;
     }
 
@@ -232,5 +220,38 @@ footer {
         column-count: 2;
         column-gap: 20px;
         line-height: 60px;
+    }
+
+    .social-networks i {
+        padding: 0 30px;
+    }
+}
+
+/* for small screen size from 350px wide and down */
+@media screen and (max-width: 350px) {
+    #logo {
+        font-size: 120%;
+    }
+
+    #menu {
+        font-size: 80%;
+    }
+
+    #menu li {
+        margin-right: 10px;
+    }
+
+    #choir-biography p {
+        font-size: 90%;
+    }
+
+    #photos {
+        column-count: 1;
+        column-gap: 20px;
+        line-height: 60px;
+    }
+
+    .social-networks i {
+        padding: 0 15px;
     }
 }
