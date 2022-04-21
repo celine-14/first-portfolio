@@ -172,7 +172,7 @@ footer {
 }
 
 /* for medium and small screen size from 925px wide and down */
-@media screen and (max-width: 925px) {  
+@media screen and (max-width: 925px) {
     #menu-bar {
         margin-left: 15px;
         margin-right: 0;
@@ -202,7 +202,7 @@ footer {
     #photos-outer {
         padding: 40px 20px 20px;
     }
-    
+
     #photos {
         column-count: 2;
         column-gap: 20px;
@@ -215,7 +215,7 @@ footer {
 }
 
 /* for small screen size from 725px wide and down */
-@media screen and (max-width: 725px) {  
+@media screen and (max-width: 725px) {
     #logo {
         font-size: 180%;
         line-height: 50px;
@@ -228,7 +228,8 @@ footer {
         float: left;
         clear: left;
     }
-     
+}
+
 /* for small screen size from 350px wide and down */
 @media screen and (max-width: 350px) {
     #logo {
