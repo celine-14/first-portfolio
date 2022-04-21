@@ -65,12 +65,12 @@ h2 {
 }
 
 #menu a:hover {
-    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
     color: #B4605D;
 }
 
 .active {
-    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
 }
 
 /* hero image */
@@ -83,13 +83,9 @@ h2 {
 
 /* choir biography */
 
-#choir-biography-outer {
-    height: 700px;
-    background-color: rgba(208, 141, 57, .8);
-}
-
 #choir-biography {
-    padding: 50px 300px;
+    background-color: rgba(208, 141, 57, .8);
+    padding: 50px 300px 75px;
 }
 
 #choir-biography h2 {
@@ -121,7 +117,8 @@ h2 {
     column-count: 3;
     column-gap: 50px;
 }
-#photos > img {
+
+#photos>img {
     width: 100%;
     border-radius: 5px;
 }
@@ -146,4 +143,29 @@ footer {
     color: #37454D;
     line-height: 100px;
     padding: 0 50px;
+}
+
+/* media queries */
+
+/* for larger to medium screen size from 1200px wide and down */
+@media screen and (max-width: 1200px) {
+    #choir-biography {
+        padding: 50px 150px 75px;
+    }
+
+    #choir-biography h2 {
+        font-size: 300%;
+        font-weight: 200;
+        text-align: center;
+        padding-top: 25px;
+        margin: 0 auto;
+        color: #fff;
+    }
+
+    #choir-biography p {
+        font-size: 120%;
+        text-align: justify;
+        line-height: 2em;
+        margin-top: 50px;
+    }
 }
