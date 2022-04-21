@@ -12,17 +12,15 @@ body {
 }
 
 #index-background {
-    width: 100%;
     background: url('/assets/images/pexels-thirdman-6193853.jpg') no-repeat right top;
     background-size: cover;
     background-attachment: fixed;
 }
 
 #contact-background {
-    width: 100%;
-    background: url('/assets/images/pexels-thirdman-6194031.jpg') no-repeat center top;
+    background: url('/assets/images/pexels-thirdman-6194031.jpg') no-repeat center bottom;
     background-size: cover;
-    background-attachment: fixed;
+    height: 1000px;
 }
 
 /* headings and logo */
