@@ -223,6 +223,10 @@ footer {
     font-family: Crimson Pro, serif;
 }
 
+.events {
+    background: #B4605D;
+}
+
 /* media queries */
 
 /* for larger to medium screen size from 1200px wide and down */
