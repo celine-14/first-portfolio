@@ -205,6 +205,9 @@ footer {
 }
 
 .submit {
+    background: #B4605D;
+    color: #000;
+    border: none;
     width: 100px;
     height: 40px;
 }
