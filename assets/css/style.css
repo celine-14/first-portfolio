@@ -225,7 +225,7 @@ footer {
 
 .events {
     width: 100%;
-    height: 500px;
+    height: 600px;
     text-align: center;
 }
 
@@ -247,6 +247,10 @@ footer {
     font-weight: 100;
 }
 
+#spring {
+    background: url(../images/pexels-recal-media-72161.jpg) no-repeat center center;
+    background-color: rgba(0, 0, 0, .5);
+}
 
 /* media queries */
 
