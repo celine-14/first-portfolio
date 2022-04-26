@@ -226,44 +226,31 @@ footer {
     font-family: Crimson Pro, serif;
 }
 
-#events-outer {
-    line-height: 100px;
-    column-count: 2;
-    column-gap: 50px;
-    padding: 80px 200px 30px;
+#events {
+    padding: 20px 300px;
 }
 
-.event-card {
-    border-radius: 5px;
-    line-height: 100px;
-    box-shadow: 2px 2px 5px grey;
-    background: #F7F8F6;
-    width: 90%;
-    clear: both;
+#events ul li {
+    list-style: none;
+    height: 100px;
+}
+
+
+.times {
+    position: relative;
+    width: 30%;
+    height: 100%;
+    background: green;
+    float: left;
     text-align: center;
+    padding: 20px;
 }
 
-.card-image {
-    height: 200px;
-    border-radius: 5px;
-    width: 100%;
-    box-shadow: 2px 2px 5px grey;
-}
-
-.event-card h2 {
-    font-size: 250%;
-    color: #000;
-    line-height: 50px;
-    background: rgba(247, 248, 246, .7);
-    border-radius: 40px;
-    margin-top: 10px;
-}
-
-.event-card h3 {
-    font-weight: 100;
-    color: #000;
-    margin-top: 10px;
-    line-height: 40px;
+.details {
+    float: right;
+    height: 100px;
+    width: 70%;
+    background: red;
 }
 
 #spring {
