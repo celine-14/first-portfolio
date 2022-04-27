@@ -25,7 +25,7 @@ h2 {
     font-family: Unica One, cursive;
     text-transform: uppercase;
     letter-spacing: 5px;
-    color: #37454D;
+    color: #37454d;
 }
 
 #logo {
@@ -35,7 +35,7 @@ h2 {
 }
 
 #header-box {
-    background-color: #F7F8F6;
+    background-color: #f7f8f6;
     height: 100px;
     width: 100%;
 }
@@ -58,7 +58,7 @@ h2 {
     float: right;
     list-style-type: none;
     margin-right: 50px;
-    color: #37454D;
+    color: #37454d;
 }
 
 #menu a {
@@ -69,12 +69,12 @@ h2 {
 
 #menu a:hover {
     transform: scale(1.2);
-    color: #B4605D;
+    color: #b4605d;
 }
 
 .active {
     transform: scale(1.2);
-    color: #B4605D;
+    color: #b4605d;
 }
 
 /* hero image */
@@ -99,7 +99,7 @@ h2 {
     padding-top: 25px;
     margin: 0 auto;
     color: #fff;
-    text-shadow: 2px 2px 5px #37454D;
+    text-shadow: 2px 2px 5px #37454d;
 }
 
 #choir-biography p {
@@ -126,14 +126,13 @@ h2 {
 #photos>img {
     width: 100%;
     border-radius: 5px;
-    box-shadow: 2px 2px 5px #37454D;
+    box-shadow: 2px 2px 5px #37454d;
 }
 
 #video {
     text-align: center;
     position: relative;
-    padding-bottom: 56.25%;
-    /* 16:9 */
+    padding-bottom: 56.25%; /* 16:9 */
     height: 0;
 }
 
@@ -147,7 +146,7 @@ h2 {
 
 /* footer */
 footer {
-    background-color: #F7F8F6;
+    background-color: #f7f8f6;
     height: 100px;
     width: 100%;
 }
@@ -162,7 +161,7 @@ footer {
 
 .social-networks i {
     font-size: 150%;
-    color: #37454D;
+    color: #37454d;
     line-height: 100px;
     padding: 0 50px;
 }
