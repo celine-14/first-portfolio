@@ -381,8 +381,9 @@ footer {
     #events {
         padding: 20px 100px;
     }
+
 }
-}
+
 
 /* for small screen size from 725px wide and down */
 @media screen and (max-width: 725px) {
@@ -397,6 +398,47 @@ footer {
         line-height: 20px;
         float: left;
         clear: left;
+    }
+
+    #events {
+        padding: 20px 10px;
+    }
+
+
+    #events ul li {
+        height: 150px;
+        padding-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    .times h2 {
+        font-size: 400%;
+        padding-top: 35px;
+    }
+
+    .details>h2 {
+        padding: 10px 20px 5PX;
+    }
+    
+    .details>h3 {
+        font-weight: 100;
+        padding: 0 20px;
+    }
+    
+    .details a {
+        text-decoration: none;
+        padding: 10px 20px;
+        border: 2px solid #000;
+        color: #fff;
+        background: #000;
+        margin-left: 20px;
+    }
+    
+    .details a:hover {
+        border: 2px solid #fff;
+        color: #000;
+        background: #fff;
+        font-weight: 1000;
     }
 }
 
