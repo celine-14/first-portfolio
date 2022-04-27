@@ -227,12 +227,14 @@ footer {
 }
 
 #events {
-    padding: 20px 300px;
+    padding: 20px 350px;
 }
 
 #events ul li {
     list-style: none;
-    height: 100px;
+    height: 150px;
+    padding-top: 20px;
+    margin-bottom: 20px;
 }
 
 
@@ -243,14 +245,26 @@ footer {
     background: green;
     float: left;
     text-align: center;
-    padding: 20px;
+}
+
+.times h2 {
+    margin: 20px;
 }
 
 .details {
     float: right;
-    height: 100px;
+    height: 100%;
     width: 70%;
     background: red;
+}
+
+.details h2 {
+    padding: 20px 20px 5px;
+}
+
+.details h3 {
+    font-weight: 100;
+    padding: 5px 20px;
 }
 
 #spring {
