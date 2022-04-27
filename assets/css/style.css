@@ -118,7 +118,7 @@ h2 {
 
 /* gallery */
 
-#photos-outer {
+#gallery {
     background-color: rgba(247, 248, 246, .8);
     padding: 80px 200px 30px;
 }
@@ -134,6 +134,10 @@ h2 {
     width: 100%;
     border-radius: 5px;
     box-shadow: 2px 2px 5px #37454D;
+}
+
+#video {
+    text-align: center;
 }
 
 /* footer */
