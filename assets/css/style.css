@@ -307,10 +307,6 @@ footer {
         padding: 80px 150px 30px;
     }
 
-    .events h2 {
-        font-size: 200%;
-    }
-
     #events {
         padding: 20px 200px;
     }
@@ -381,6 +377,11 @@ footer {
     .contact-us {
         width: 80%;
     }
+
+    #events {
+        padding: 20px 100px;
+    }
+}
 }
 
 /* for small screen size from 725px wide and down */
