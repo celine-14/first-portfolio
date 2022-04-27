@@ -204,7 +204,7 @@ footer {
     border-radius: 2px;
     margin: 10px 10px 20px;
     padding: 5px 10px;
-    color: #fff;
+    color: #000;
     font-family: Crimson Pro, serif;
     font-size: 120%;
 }
@@ -225,8 +225,11 @@ footer {
     border: none;
     height: 70px;
     width: 60%;
-    border-radius: 10px;
+    border-radius: 20px;
     margin: auto;
+    font-size: 180%;
+    font-family: Unica One, cursive;
+    text-transform: uppercase;
 }
 
 
