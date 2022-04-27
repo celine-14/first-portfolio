@@ -246,13 +246,16 @@ footer {
     padding: 20px 350px;
 }
 
+#events li:hover {
+    transform: scale(1.1);
+}
+
 #events ul li {
     list-style: none;
     height: 200px;
     padding-top: 20px;
     margin-bottom: 20px;
 }
-
 
 .times {
     position: relative;
