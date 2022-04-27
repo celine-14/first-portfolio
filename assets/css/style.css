@@ -174,14 +174,13 @@ footer {
     background-size: cover;
     height: 1000px;
     text-align: center;
-    clear: right;
+    padding: 150px 30px 50px;
 }
 
 .contact-us {
     background: rgba(0, 91, 68, .8);
     width: 40%;
     padding: 30px;
-    margin: 50px 30px;
     right: 15%;
     position: absolute;
     border-radius: 10px;
@@ -349,6 +348,11 @@ footer {
     #photos {
         column-count: 2;
     }
+
+    .contact-us {
+        width: 85%;
+        right: unset;
+    }
 }
 
 /* for medium and small screen size from 925px wide and down */
@@ -401,12 +405,12 @@ footer {
         font-size: 100%;
     }
 
-    .contact-us {
-        width: 80%;
-    }
-
     #events {
         padding: 20px 100px;
+    }
+    
+    #contact-form {
+        padding-top: 40px;
     }
 }
 
@@ -453,7 +457,6 @@ footer {
         font-weight: 100;
         padding: 0 20px;
     }
-
 }
 
 /* for small screen size from 350px wide and down */
