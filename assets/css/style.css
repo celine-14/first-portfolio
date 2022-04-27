@@ -310,6 +310,10 @@ footer {
     .events h2 {
         font-size: 200%;
     }
+
+    #events {
+        padding: 20px 200px;
+    }
 }
 
 /* for medium screen size from 1000px wide and down */
