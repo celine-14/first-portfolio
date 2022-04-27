@@ -320,7 +320,7 @@ footer {
         padding: 50px 150px 75px;
     }
 
-    #photos-outer {
+    #gallery {
         padding: 80px 150px 30px;
     }
 
@@ -375,7 +375,7 @@ footer {
         margin-top: 20px;
     }
 
-    #photos-outer {
+    #gallery {
         padding: 40px 20px 20px;
     }
 
@@ -418,6 +418,10 @@ footer {
         line-height: 20px;
         float: left;
         clear: left;
+    }
+
+    #photos {
+        column-count: 1;
     }
 
     #events {
@@ -467,7 +471,7 @@ footer {
 
     #photos {
         column-count: 1;
-        column-gap: 20px;
+        column-gap: 1px;
         line-height: 60px;
     }
 
