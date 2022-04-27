@@ -220,10 +220,13 @@ footer {
 }
 
 .submit {
-    background: #fff;
+    background: #b4605d;
     color: #000;
     border: none;
-    height: 40px;
+    height: 70px;
+    width: 60%;
+    border-radius: 10px;
+    margin: auto;
 }
 
 
@@ -328,6 +331,12 @@ footer {
     #events {
         padding: 20px 200px;
     }
+
+    .contact-us {
+        width: 60%;
+        margin: auto;
+        float: none;
+    }
 }
 
 /* for medium screen size from 1000px wide and down */
@@ -343,11 +352,6 @@ footer {
 
     #photos {
         column-count: 2;
-    }
-
-    .contact-us {
-        width: 85%;
-        right: unset;
     }
 }
 
@@ -395,11 +399,6 @@ footer {
         padding: 0 30px;
     }
 
-    .contact-us {
-        margin: auto;
-        float: none;
-    }
-
     .text-input,
     .message-input,
     .submit {
@@ -412,6 +411,10 @@ footer {
     
     #contact-form {
         padding-top: 40px;
+    }
+
+    .contact-us {
+        width: 80%;
     }
 }
 
@@ -462,6 +465,10 @@ footer {
     #contact-form {
         padding: 10px 20px;
     }
+
+    .radio-input {
+        margin-right: 5px;
+    }
 }
 
 /* for small screen size from 350px wide and down */
@@ -490,5 +497,10 @@ footer {
 
     .social-networks i {
         padding: 0 15px;
+    }
+
+    .radio-input {
+        margin: 0;
+        padding: 0;
     }
 }

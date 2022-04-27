@@ -44,17 +44,18 @@
             <label for="email"></label>
             <input id="email" name="email_address" type="email" class="text-input" placeholder="Email Address" required>
 
-            <br>
-            
-            <label for="join_us" class="radio-label">Join Us</label>
-            <input id="join_us" name="type_of_enquiry" type="radio" class="radio-input" required>
-            <label for="hire_us" class="radio-label">Hire Us</label>
-            <input id="hire_us" name="type_of_enquiry" type="radio" class="radio-input">
-            <label for="ask_us" class="radio-label">Ask Us</label>
-            <input id="ask_us" name="type_of_enquiry" type="radio" class="radio-input">
+            <span>
+                <label for="join_us" class="radio-input">Join Us</label>
+                <input id="join_us" name="type_of_enquiry" type="radio" class="radio-input" required>
+                <label for="hire_us" class="radio-input">Hire Us</label>
+                <input id="hire_us" name="type_of_enquiry" type="radio" class="radio-input">
+                <label for="ask_us" class="radio-input">Ask Us</label>
+                <input id="ask_us" name="type_of_enquiry" type="radio" class="radio-input">
+            </span>
 
             <label for="message"></label>
-            <textarea id="message" name="message" class="message-input" cols="50" rows="10" placeholder="Your Message" required>
+            <textarea id="message" name="message" class="message-input" cols="50" rows="10" placeholder="Your Message"
+                required>
             </textarea>
 
             <input type="submit" class="submit" value="Send">
