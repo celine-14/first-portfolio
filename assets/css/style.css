@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: Crimson Pro, serif;
+    font-family: 'Crimson Pro', serif;
     color: #fff;
 }
 
@@ -22,7 +22,7 @@ body {
 
 h1,
 h2 {
-    font-family: Unica One, cursive;
+    font-family: 'Unica One', cursive;
     text-transform: uppercase;
     letter-spacing: 5px;
     color: #37454d;
@@ -43,7 +43,7 @@ h2 {
 /* navigation links */
 
 #menu {
-    font-family: Unica One, cursive;
+    font-family: 'Unica One', cursive;
     font-size: 110%;
     letter-spacing: 5px;
     text-transform: uppercase;
@@ -206,7 +206,7 @@ footer {
     margin: 10px 10px 20px;
     padding: 5px 10px;
     color: #000;
-    font-family: Crimson Pro, serif;
+    font-family: 'Crimson Pro', serif;
     font-size: 120%;
 }
 
@@ -229,7 +229,7 @@ footer {
     border-radius: 20px;
     margin: auto;
     font-size: 180%;
-    font-family: Unica One, cursive;
+    font-family: 'Unica One', cursive;
     text-transform: uppercase;
 }
 
@@ -243,7 +243,7 @@ footer {
 
 ::placeholder {
     color: grey;
-    font-family: Crimson Pro, serif;
+    font-family: 'Crimson Pro', serif;
 }
 
 /* events */
