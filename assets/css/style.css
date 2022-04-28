@@ -12,7 +12,7 @@ body {
 }
 
 #index-background {
-    background: url("../images/pexels-thirdman-6193853.jpg") no-repeat right top;
+    background: url("../images/pexels-thirdman-6193853.webp") no-repeat right top;
     background-size: cover;
     background-attachment: fixed;
     min-height: 100%;
