@@ -67,6 +67,7 @@ h2 {
     display: block;
 }
 
+/* adds hover effect to menu bar */
 #menu a:hover {
     transform: scale(1.2);
     color: #b4605d;
@@ -214,12 +215,6 @@ footer {
     padding: 5px 10px;
 }
 
-.radio-input {
-    color: #000;
-    margin-left: 5px;
-    margin-right: 20px;
-}
-
 .message-input {
     height: 150px;
 }
@@ -238,7 +233,7 @@ footer {
     margin: auto;
 }
 
-
+/* adds hover effect to text, message inputs and submit button */
 .text-input:hover,
 .message-input:hover,
 .submit:hover {
@@ -246,6 +241,13 @@ footer {
     color: #fff;
 }
 
+.radio-input {
+    color: #000;
+    margin-left: 5px;
+    margin-right: 20px;
+}
+
+/* style placeholder texts in contact form */
 ::placeholder {
     color: grey;
     font-family: 'Crimson Pro', serif;
@@ -262,14 +264,15 @@ footer {
     flex-direction: column;
 }
 
-#events li:hover {
-    transform: scale(1.1);
-}
-
 #events li {
     list-style: none;
     padding-top: 20px;
     margin-bottom: 20px;
+}
+
+/* adds hover effect to lists */
+#events li:hover {
+    transform: scale(1.1);
 }
 
 .times {
@@ -327,6 +330,7 @@ footer {
     margin-bottom: 25px;
 }
 
+/* adds hover effect to 'view details' button */
 .details a:hover {
     background: #fff;
     color: #000;    
