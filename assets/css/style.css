@@ -165,7 +165,7 @@ footer {
 /* contact form */
 
 #contact-form {
-    background: url("../images/pexels-thirdman-6194031.jpg") no-repeat center bottom;
+    background: url("../images/pexels-thirdman-6194031.jpg") no-repeat center top;
     background-size: cover;
     height: 1000px;
     text-align: center;
@@ -487,6 +487,7 @@ footer {
 
     #contact-form {
         padding: 20px 20px;
+        height: 800px;
     }
 
     .contact-us {
@@ -523,6 +524,10 @@ footer {
     .details>h3 {
         font-size: 80%;
     }
+    
+    #contact-form {
+        height: 800px;
+    }
 }
 
 /* for small screen size from 350px wide and down */
@@ -556,6 +561,10 @@ footer {
     .radio-input {
         margin: 0;
         padding: 0;
+    }
+
+    #contact-form {
+        height: 750px;
     }
 
     .contact-us {
