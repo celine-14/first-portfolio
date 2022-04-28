@@ -233,7 +233,7 @@ footer {
     margin: auto;
 }
 
-/* adds hover effect to text, message inputs and submit button */
+/* add hover effect to text, message inputs and submit button */
 .text-input:hover,
 .message-input:hover,
 .submit:hover {
@@ -270,7 +270,7 @@ footer {
     margin-bottom: 20px;
 }
 
-/* adds hover effect to lists */
+/* add hover effect to lists */
 #events li:hover {
     transform: scale(1.1);
 }
@@ -330,7 +330,7 @@ footer {
     margin-bottom: 25px;
 }
 
-/* adds hover effect to 'view details' button */
+/* add hover effect to 'view details' button */
 .details a:hover {
     background: #fff;
     color: #000;    
@@ -365,7 +365,7 @@ footer {
         float: none;
     }
 
-    /* unifies choir biography and contact form paragraph font size for consistency */
+    /* unify choir biography and contact form paragraph font size for consistency */
     #choir-biography p, .contact-us p {
         font-size: 120%;
     }
@@ -420,7 +420,7 @@ footer {
         margin-bottom: 30px;
     }
 
-    /* unifies choir biography and contact form font size for consistency */
+    /* unify choir biography and contact form font size for consistency */
     #choir-biography p, .contact-us p {
         font-size: 100%;
     }
@@ -493,7 +493,7 @@ footer {
         clear: left;
     }
 
-    /* unifies choir biography and contact form paragraph font size for consistency */
+    /* unify choir biography and contact form paragraph font size for consistency */
     #choir-biography p, .contact-us p {
         font-size: 80%;
     }
