@@ -105,7 +105,7 @@ h2 {
 #choir-biography p {
     font-size: 150%;
     text-align: justify;
-    line-height: 1.5em;
+    line-height: 2em;
     text-indent: 40px;
     margin-bottom: 15px;
 }
@@ -191,7 +191,7 @@ footer {
 
 .contact-us p {
     font-size: 130%;
-    padding-bottom: 40px;
+    margin-bottom: 40px;
     line-height: 30px;
     color: #000;
 }
@@ -342,6 +342,10 @@ footer {
         margin: auto;
         float: none;
     }
+
+    #choir-biography p, .contact-us p {
+        font-size: 120%;
+    }
 }
 
 /* for medium screen size from 1000px wide and down */
@@ -361,10 +365,6 @@ footer {
 
     #choir-biography {
         padding: 50px 50px 75px;
-    }
-
-    #choir-biography p {
-        font-size: 120%;
     }
 }
 
@@ -391,13 +391,13 @@ footer {
         margin-bottom: 30px;
     }
 
-    #choir-biography p {
+    #choir-biography p, .contact-us p {
         font-size: 100%;
     }
 
     #choir-biography h2,
     .contact-us h2 {
-        font-size: 190%;
+        font-size: 220%;
     }
 
     #gallery {
@@ -415,14 +415,17 @@ footer {
     }
     
     .contact-us p {
-        font-size: 100%;
-        margin-top: 40px;
+        margin-top: 5px;
+        margin-bottom: 10px;
     }
 
     .text-input,
-    .message-input,
-    .submit {
+    .message-input {
         font-size: 100%;
+    }
+
+    .submit {
+        font-size: 150%;
     }
 
     #events {
@@ -487,7 +490,15 @@ footer {
     }
 
     #contact-form {
-        padding: 10px 20px;
+        padding: 20px 20px;
+    }
+
+    .contact-us {
+        padding: 30px 10px;
+    }
+
+    .contact-us h2 {
+        font-size: 200%;
     }
 
     .radio-input {
@@ -530,5 +541,9 @@ footer {
     .radio-input {
         margin: 0;
         padding: 0;
+    }
+
+    .contact-us {
+        margin: 0 10px;
     }
 }
