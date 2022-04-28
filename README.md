@@ -5,12 +5,14 @@
     * [Features Left to Implement](#features-left-to-implement)
 * [Testing](#testing)
     * [Website Functionality Testing](#website-functionality-testing)
+    * [UI Testing](#ui-testing)
     * [Compatibility Testing](#compatibility-testing)
     * [Validator Testing](#validator-testing)
 * [Deployment](#deployment)
 * [Credits](#credits)
     * [Content](#content)
     * [Media](#media)
+    * [Font](#font)
 
 # Voces Creo
 
@@ -94,6 +96,13 @@ Voces Creo is a chamber choir based in Dublin, Ireland, and was founded in 2020.
 - Form Testing
     - All inputs needs a correct value and are required.
 
+### UI Testing
+
+- Evaluated designs including layout, colours, fonts, font sizes, text formatting, buttons, lists, icons and links.
+- Tested with different screen resolutions and devices using Chrome DevTools.
+- Tested colour contrast across all pages using the [Color Contrast Analyzer](https://color.adobe.com/create/color-contrast-analyzer) by Adobe and made sure the colour contrast is high enough.
+
+
 ### Compatibility Testing
 
 - Firefox
@@ -127,9 +136,13 @@ The live link can be found here - https://celine-14.github.io/first-portfolio/
 ### Content
 
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+- The fonts were imported from [Google Fonts](https://fonts.google.com/)
 
 ### Media
 
 - The photos used on the home page, contact page and gallery are from [Pexels](https://www.pexels.com/collections/academic-choir-oc8gibb/)
 - The video used in the Gallery section on home page is from [Celine Leong](https://www.youtube.com/watch?v=hHkodEfPuLM).
 
+### Font
+
+- The inspiration for the font pairing is taken from [Reliable](https://heyreliable.com/ultimate-google-font-pairings/)
