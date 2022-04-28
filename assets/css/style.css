@@ -506,6 +506,13 @@ footer {
     }
 }
 
+/* for small screen size from 450px wide and down */
+@media screen and (max-width: 450px) {
+    #choir-biography {
+        padding: 1px 20px 25px;
+    }
+}
+
 /* for small screen size from 350px wide and down */
 @media screen and (max-width: 350px) {
     #logo {
@@ -522,10 +529,6 @@ footer {
 
     #choir-biography {
         padding: 1px 20px 25px;
-    }
-
-    #choir-biography p {
-        font-size: 60%;
     }
 
     #photos {
