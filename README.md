@@ -125,10 +125,15 @@ Voces Creo is a chamber choir based in Dublin, Ireland, and was founded in 2020.
 ### Lighthouse Testing
 
 - Desktop Version
-    - All pages achieve full mark of 100 for Performance except for the index page which has a score of 95. 
-    - The scores for Accessibility, Best Practices and SEO are the same across all pages.
+    - All pages are tested and achieved full mark of 100 for Accessibility, Best Practices and SEO. 
+    - Performance score for all pages is 100 except for the index page which has a score of 95. 
     - ![Desktop Version](https://github.com/celine-14/first-portfolio/blob/main/docs/screenshots/lighthouse_testing_desktop.png?raw=true)
 
+- Mobile Version
+    - All pages are tested and achieved full mark of 100 for Accessibilty and Best Practices.
+    - Performance score for all pages is 96.
+    - SEO score for index and events pages is 100 except for contact us page with 97.
+    -![Mobile Version](https://github.com/celine-14/first-portfolio/blob/main/docs/screenshots/lighthouse_testing_mobile.png?raw=true)
 
 ## Deployment
 
