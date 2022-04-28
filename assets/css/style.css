@@ -103,7 +103,7 @@ h2 {
 }
 
 #choir-biography p {
-    font-size: 120%;
+    font-size: 150%;
     text-align: justify;
     line-height: 2em;
     margin-top: 50px;
@@ -371,11 +371,11 @@ footer {
     }
 
     #hero-outer {
-        height: 800px;
+        height: 600px;
     }
 
     #choir-biography {
-        padding: 1px 20px 25px;
+        padding: 1px 50px 25px;
     }
 
     #choir-biography h2,
@@ -385,12 +385,12 @@ footer {
 
     #choir-biography p,
     .contact-us p {
-        font-size: 100%;
-        margin-top: 20px;
+        font-size: 110%;
+        margin-top: 40px;
     }
 
     #gallery {
-        padding: 40px 20px 20px;
+        padding: 40px 40px 20px;
     }
 
     #photos {
