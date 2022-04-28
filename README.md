@@ -41,9 +41,9 @@ Voces Creo is a chamber choir based in Dublin, Ireland, and was founded in 2020.
     
 - __Choir Biography__
 
-    - The choir biography gives a brief introduction of the choir and shares the choir's aim and direction to the users.
+    - The choir biography gives a brief introduction of the choir and shares the choir's aim and direction to the user.
     - The biography will attract user who shares the same passion and encourage more singers to join the choir. 
-    - The biography targets user who are composers from the underrepresented group to reach out and send in their own compositions for the choir.
+    - The biography targets user who are composers from the underrepresented group to reach out and send in their own compositions for the choir to perform.
 
 ![Choir Biography](https://github.com/celine-14/first-portfolio/blob/main/docs/screenshots/voces_creo_bio.png?raw=true)
 
@@ -51,7 +51,7 @@ Voces Creo is a chamber choir based in Dublin, Ireland, and was founded in 2020.
 
     - The gallery provides user with supporting images to give an insight of what the choir rehearsals and performances look like.
     - The gallery images are of the conductor and singers to allow user to be familiar with the members of the choir. 
-    - The gallery has a video that welcomes user to play and enjoy the choir's performance. This is to encourage more audience to attend the choir's concert and singers to join the choir. 
+    - The gallery has a video that welcomes user to play and enjoy the choir's performance. This video gives a preview of how the choir sound like to the user and to encourage user to attend the choir's upcoming concerts and singers to join the choir. 
 
 ![Photos](https://github.com/celine-14/first-portfolio/blob/main/docs/screenshots/voces_creo_photos.png?raw=true)
 ![Video](https://github.com/celine-14/first-portfolio/blob/main/docs/screenshots/voces_creo_video.png?raw=true)
@@ -60,20 +60,21 @@ Voces Creo is a chamber choir based in Dublin, Ireland, and was founded in 2020.
 
     - The footer includes link to the relevant social media sites for Voces Creo. The links will open to a new tab to allow easy navigation for the user. 
     - The footer is essential for the user as it encourages them to stay connected via social media.
+    - Social media links are Facebook, Twitter, Instagram and YouTube.
 
 ![Footer](https://github.com/celine-14/first-portfolio/blob/main/docs/screenshots/voces_creo_footer.png?raw=true)
 
 - __Events__
 
-    - This section will allow user to keep updated on upcoming events and concerts organised by the choir. Each event includes the date, time, location and theme of the concert for the user. 
+    - This section will allow user to keep updated on upcoming events and concerts organised by the choir. Each event includes the title, date, time and location of the concert for the user. 
     - The events include external links for the user to purchase tickets outside of the choir's website 
 
 ![Events](https://github.com/celine-14/first-portfolio/blob/main/docs/screenshots/voces_creo_events.png?raw=true)
 
 - __Contact Us__
 
-    - This page allows user to get in touch with us with any queries, including singers who are interested in joining the choir and user who would like to hire us for an event.
-    - This user will be asked to provide their full name, email address, message to the choir and will be able to specify the type of enquiry by selecting one of the options in the form.
+    - This page allows user to get in touch with any queries, including singers who are interested in joining the choir and user who would like to hire the choir for an event.
+    - The user will be asked to provide their full name, email address and message to the choir. The user will be able to specify the type of enquiry by selecting one of the options in the form.
 
 ![Contact Us](https://github.com/celine-14/first-portfolio/blob/main/docs/screenshots/voces_creo_contact_us.png?raw=true)
 
@@ -81,11 +82,11 @@ Voces Creo is a chamber choir based in Dublin, Ireland, and was founded in 2020.
 
 - __Members Zone__
 
-    - This page allows choir members to log in to the webpage to access files and latest information from the choir.
+    - This page allows choir members to log in to the member zone to access files and latest information from the choir.
 
 - __Store__
     
-    - This page allows user to browse through our catalog and buy the choir's music and merchandise. 
+    - This page allows user to browse through the choir's catalog and purchase the choir's music and merchandise. 
 
 ## Testing
 
@@ -95,7 +96,7 @@ Voces Creo is a chamber choir based in Dublin, Ireland, and was founded in 2020.
     - All links are functioning and direct to the assigned external page.
 
 - Form Testing
-    - All inputs needs a correct value and are required.
+    - All inputs needs a correct value and are required to be filled.
 
 ### UI Testing
 
@@ -112,7 +113,7 @@ Voces Creo is a chamber choir based in Dublin, Ireland, and was founded in 2020.
 - Chrome
     - Website functions as normal
 
-- IE Edge
+- Microsoft Edge
     - Website fucntions as normal
 
 ### Validator Testing
@@ -120,28 +121,28 @@ Voces Creo is a chamber choir based in Dublin, Ireland, and was founded in 2020.
 - HTML
   - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/)
 
 ### Lighthouse Testing
 
 - Desktop Version
     - All pages are tested and achieved full mark of 100 for Accessibility, Best Practices and SEO. 
     - Performance score for all pages is 100 except for the index page which has a score of 95. 
-    - ![Desktop Version](https://github.com/celine-14/first-portfolio/blob/main/docs/screenshots/lighthouse_testing_desktop.png?raw=true)
+    ![Desktop Version](https://github.com/celine-14/first-portfolio/blob/main/docs/screenshots/lighthouse_testing_desktop.png?raw=true)
 
 - Mobile Version
     - All pages are tested and achieved full mark of 100 for Accessibilty and Best Practices.
     - Performance score for all pages is 96.
     - SEO score for index and events pages is 100 except for contact us page with 97.
-    -![Mobile Version](https://github.com/celine-14/first-portfolio/blob/main/docs/screenshots/lighthouse_testing_mobile.png?raw=true)
+    ![Mobile Version](https://github.com/celine-14/first-portfolio/blob/main/docs/screenshots/lighthouse_testing_mobile.png?raw=true)
 
 ## Deployment
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
-  - Navigate to the Settings tab in the GitHub repository
-  - Click on the Pages tab on the left
-  - Select the Main Branch from the source section drop-down menu
-  - The page automatically refreshed with a detailed ribbon display indicating the successful deployment
+  - Navigated to the Settings tab in the GitHub repository
+  - Clicked on the Pages tab on the left
+  - Selected the Main Branch from the source section drop-down menu
+  - Refreshed page with a detailed ribbon display indicating the successful deployment
 
 The live link can be found here - https://celine-14.github.io/first-portfolio/
 
@@ -154,9 +155,9 @@ The live link can be found here - https://celine-14.github.io/first-portfolio/
 
 ### Media
 
-- The photos used on the home page, contact page and gallery are from [Pexels](https://www.pexels.com/collections/academic-choir-oc8gibb/)
+- The photos used on the home page, contact page and gallery are from [Pexels](https://www.pexels.com/collections/academic-choir-oc8gibb/) by photographer Thirdman.
 - The video used in the Gallery section on home page is from [Celine Leong](https://www.youtube.com/watch?v=hHkodEfPuLM).
 
 ### Font
 
-- The inspiration for the font pairing is taken from [Reliable](https://heyreliable.com/ultimate-google-font-pairings/)
+- The inspiration behind the font pairing is taken from [Reliable](https://heyreliable.com/ultimate-google-font-pairings/)
