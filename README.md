@@ -100,7 +100,7 @@ Voces Creo is a chamber choir based in Dublin, Ireland, and was founded in 2020.
 
 - Evaluated designs including layout, colours, fonts, font sizes, text formatting, buttons, lists, icons and links.
 - Tested with different screen resolutions and devices using Chrome DevTools.
-- Tested colour contrast across all pages using the [Color Contrast Analyzer](https://color.adobe.com/create/color-contrast-analyzer) by Adobe and made sure the colour contrast is high enough.
+- Tested colour contrast across all pages using [Color Contrast Analyzer](https://color.adobe.com/create/color-contrast-analyzer) by Adobe and made sure the colour contrast is high enough.
 
 
 ### Compatibility Testing
