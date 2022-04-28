@@ -256,7 +256,7 @@ footer {
     transform: scale(1.1);
 }
 
-#events ul li {
+#events li {
     list-style: none;
     height: 200px;
     padding-top: 20px;
@@ -312,6 +312,7 @@ footer {
     color: #fff;
     background: #000;
     margin-left: 20px;
+    bottom: 5%;
 }
 
 .details a:hover {
@@ -391,7 +392,7 @@ footer {
         margin-bottom: 30px;
     }
 
-    #choir-biography p, .contact-us p {
+    #choir-biography p, .contact-us p, .details h3 {
         font-size: 100%;
     }
 
@@ -469,8 +470,8 @@ footer {
         padding: 20px 20px;
     }
 
-    #events ul li {
-        height: 150px;
+    #events li {
+        height: 160px;
         padding-top: 10px;
         margin-bottom: 20px;
     }
@@ -486,7 +487,7 @@ footer {
 
     .details>h3 {
         font-weight: 100;
-        padding: 0 20px;
+        padding: 5px 20px;
     }
 
     #contact-form {
@@ -506,10 +507,26 @@ footer {
     }
 }
 
-/* for small screen size from 450px wide and down */
-@media screen and (max-width: 450px) {
+/* for small screen size from 560px wide and down */
+@media screen and (max-width: 560px) {
     #choir-biography {
         padding: 1px 20px 25px;
+    }
+
+    #events li {
+        height: 190px;
+    }
+
+    .times>h2 {
+        padding-top: 50px;
+    }
+
+    .details>h2 {
+        font-size: 150%;
+    }
+
+    .details>h3 {
+        font-size: 80%;
     }
 }
 
@@ -525,10 +542,6 @@ footer {
 
     #menu li {
         margin-right: 10px;
-    }
-
-    #choir-biography {
-        padding: 1px 20px 25px;
     }
 
     #photos {
