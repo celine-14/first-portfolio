@@ -141,6 +141,7 @@ h2 {
 }
 
 /* footer */
+
 footer {
     background-color: #f7f8f6;
     height: 100px;
@@ -338,6 +339,8 @@ footer {
 
 /* for larger to medium screen size from 1200px wide and down */
 @media screen and (max-width: 1200px) {
+    
+    /* index page */
     #choir-biography {
         padding: 50px 150px 75px;
     }
@@ -346,16 +349,19 @@ footer {
         padding: 80px 150px 30px;
     }
 
+    /* events page */
     #events {
         padding: 20px 200px;
     }
 
+    /* contact us page */
     .contact-us {
         width: 60%;
         margin: auto;
         float: none;
     }
 
+    /* unifies choir biography and contact form paragraph font size for consistency */
     #choir-biography p, .contact-us p {
         font-size: 120%;
     }
@@ -363,6 +369,8 @@ footer {
 
 /* for medium screen size from 1000px wide and down */
 @media screen and (max-width: 1000px) {
+    
+    /* nav bar */
     #menu-bar {
         margin-right: 25px;
     }
@@ -372,6 +380,7 @@ footer {
         margin-right: 25px;
     }
 
+    /* index page */
     #photos {
         column-count: 2;
     }
@@ -383,6 +392,8 @@ footer {
 
 /* for medium and small screen size from 925px wide and down */
 @media screen and (max-width: 925px) {
+    
+    /* nav bar */
     #menu-bar {
         margin-left: 15px;
         margin-right: 0;
@@ -392,6 +403,7 @@ footer {
         margin-right: 30px;
     }
 
+    /* index page */
     #hero-outer {
         height: 600px;
     }
@@ -404,6 +416,7 @@ footer {
         margin-bottom: 30px;
     }
 
+    /* unifies choir biography and contact form font size for consistency */
     #choir-biography p, .contact-us p {
         font-size: 100%;
     }
@@ -423,10 +436,18 @@ footer {
         line-height: 60px;
     }
 
+    /* footer */
     .social-networks i {
         padding: 0 30px;
     }
+
+    /* events page */
+    #events {
+        padding: 20px 100px;
+    }
+
     
+    /* contact us page */
     .contact-us p {
         margin-top: 5px;
         margin-bottom: 10px;
@@ -441,10 +462,6 @@ footer {
         font-size: 150%;
     }
 
-    #events {
-        padding: 20px 100px;
-    }
-    
     #contact-form {
         padding-top: 40px;
     }
@@ -457,6 +474,8 @@ footer {
 
 /* for small screen size from 725px wide and down */
 @media screen and (max-width: 725px) {
+    
+    /* nav bar */
     #logo {
         font-size: 180%;
         line-height: 50px;
@@ -470,14 +489,17 @@ footer {
         clear: left;
     }
 
-    #choir-biography p {
+    /* unifies choir biography and contact form paragraph font size for consistency */
+    #choir-biography p, .contact-us p {
         font-size: 80%;
     }
 
+    /* index page */
     #photos {
         column-count: 1;
     }
 
+    /* events page */
     #events {
         padding: 20px 20px;
     }
@@ -493,6 +515,7 @@ footer {
         padding: 5px 20px;
     }
 
+    /* contact us page */
     #contact-form {
         padding: 20px 20px;
         height: 800px;
@@ -513,10 +536,13 @@ footer {
 
 /* for small screen size from 560px wide and down */
 @media screen and (max-width: 560px) {
+    
+    /* index page */
     #choir-biography {
         padding: 1px 20px 25px;
     }
 
+    /* events page */
     #events li {
         height: 190px;
     }
@@ -533,6 +559,7 @@ footer {
         font-size: 80%;
     }
     
+    /* contact us page */
     #contact-form {
         height: 800px;
     }
@@ -540,6 +567,8 @@ footer {
 
 /* for small screen size from 350px wide and down */
 @media screen and (max-width: 350px) {
+    
+    /* nav bar */
     #logo {
         font-size: 120%;
     }
@@ -552,25 +581,32 @@ footer {
         margin-right: 10px;
     }
 
+    /* index page */
     #photos {
         column-count: 1;
         column-gap: 1px;
         line-height: 60px;
     }
 
+    /* footer */
     .social-networks i {
         padding: 0 15px;
+    }
+
+    /* events page */
+    .times>h2 {
+        font-size: 300%;
     }
 
     .details>h3 {
         font-size: 70%;
     }
 
-    .radio-input {
-        margin: 0;
-        padding: 0;
+    .details>a {
+        padding: 10px 5px;
     }
 
+    /* contact us page */
     #contact-form {
         height: 750px;
     }
@@ -579,11 +615,8 @@ footer {
         margin: 0 10px;
     }
 
-    .times>h2 {
-        font-size: 300%;
-    }
-
-    .details>a {
-        padding: 10px 5px;
+    .radio-input {
+        margin: 0;
+        padding: 0;
     }
 }
