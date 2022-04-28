@@ -17,10 +17,16 @@ Voces Creo is a chamber choir based in Dublin, Ireland, and was founded in 2020.
 - __Choir Biography__
 
     - The choir biography gives a brief introduction of the choir and shares the choir's aim and direction to the users.
-    - The biography will attract audience who shares the same passion and encourage more singers who wants to sing repertoire of different cultures across all historical periods to join the choir. 
-    - The biography also aims to target users who are composers from the underrepresented group to reach out and send in their own compositions for the choir.
+    - The biography will attract user who shares the same passion and encourage more singers to join the choir. 
+    - The biography targets user who are composers from the underrepresented group to reach out and send in their own compositions for the choir.
 
 - __Gallery__
 
     - The gallery provides user with supporting images to give an insight of what the choir rehearsals and performances look like.
-    - The gallery includes images of the conductor and singers to allow users to be familiar with the members of the choir. 
+    - The gallery images are of the conductor and singers to allow user to be familiar with the members of the choir. 
+    - The gallery has a video that welcomes user to play and enjoy the choir's performance. This is to encourage more audience to attend the choir's concert and singers to join the choir. 
+
+- __The Footer__ 
+
+    - The footer includes link to the relevant social media sites for Voces Creo. The links will open to a new tab to allow easy navigation for the user. 
+    - The footer is essential for the user as it encourages them to stay connected via social media.
