@@ -80,7 +80,7 @@ h2 {
 /* hero image */
 
 #hero-outer {
-    height: 700px;
+    height: 750px;
     width: 100%;
     overflow: hidden;
 }
@@ -488,6 +488,10 @@ footer {
 
     #menu li {
         margin-right: 10px;
+    }
+
+    #choir-biography {
+        padding: 1px 20px 25px;
     }
 
     #choir-biography p {
