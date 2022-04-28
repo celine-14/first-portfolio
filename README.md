@@ -77,3 +77,12 @@ Voces Creo is a chamber choir based in Dublin, Ireland, and was founded in 2020.
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
 
+## Deployment
+
+- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - Navigate to the Settings tab in the GitHub repository
+  - Click on the Pages tab on the left
+  - Select the Main Branch from the source section drop-down menu
+  - The page automatically refreshed with a detailed ribbon display indicating the successful deployment
+
+The live link can be found here - https://celine-14.github.io/first-portfolio/
