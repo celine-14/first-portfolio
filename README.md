@@ -20,7 +20,7 @@
 
 Voces Creo is a chamber choir based in Dublin, Ireland, and was founded in 2020. The choir aims to bring together singers from all walks of life to perform choral music of different cultures and across all historical period. The choir is constantly exploring repertoire that are not written by dead white men to promote diversity and inclusion for composers from underrepresented groups.
 
-![Responsive Mockup](https://github.com/celine-14/first-portfolio/blob/docs/screenshots/images/voces_creo_mockup.png?raw=true)
+![Responsive Mockup](https://github.com/celine-14/first-portfolio/blob/main/docs/screenshots/voces_creo_mockup.png?raw=true)
 
 ## Features
 ### Existing features
