@@ -1,6 +1,16 @@
 ## Table of Contents
-* [Introduction](#Introduction)
-* [Features](#Features)
+* [Introduction](#introduction)
+* [Features](#features)
+    * [Existing Features](#existing-features)
+    * [Features Left to Implement](#features-left-to-implement)
+* [Testing](#testing)
+    * [Website Functionality Testing](#website-functionality-testing)
+    * [Compatibility Testing](#compatibility-testing)
+    * [Validator Testing](#validator-testing)
+* [Deployment](#deployment)
+* [Credits](#credits)
+    * [Content](#content)
+    * [Media](#media)
 
 # Voces Creo
 
