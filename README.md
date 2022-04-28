@@ -49,4 +49,11 @@ Voces Creo is a chamber choir based in Dublin, Ireland, and was founded in 2020.
     - This section will allow user to keep updated on upcoming events and concerts organised by the choir. Each event includes the date, time, location and theme of the concert for the user. 
     - The events include external links for the user to purchase tickets outside of the choir's website 
 
-![Events](https://github.com/celine-14/first-portfolio/blob/main/assets/images/voces_creo_events.png?raw=true)]
+![Events](https://github.com/celine-14/first-portfolio/blob/main/assets/images/voces_creo_events.png?raw=true)
+
+- __Contact Us__
+
+    - This page allows user to get in touch with us with any queries, including singers who are interested in joining the choir and user who would like to hire us for an event.
+    - This user will be asked to provide their full name, email address, message to the choir and will be able to specify the type of enquiry by selecting one of the options in the form.
+
+![Contact Us](https://github.com/celine-14/first-portfolio/blob/main/assets/images/voces_creo_contact_us.png?raw=true)
