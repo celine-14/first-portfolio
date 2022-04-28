@@ -67,7 +67,7 @@ Voces Creo is a chamber choir based in Dublin, Ireland, and was founded in 2020.
 - __Events__
 
     - This section will allow user to keep updated on upcoming events and concerts organised by the choir. Each event includes the title, date, time and location of the concert for the user. 
-    - The events include external links for the user to purchase tickets outside of the choir's website 
+    - The events include external links for the user to purchase tickets outside of the choir's website.
 
 ![Events](https://github.com/celine-14/first-portfolio/blob/main/docs/screenshots/voces_creo_events.png?raw=true)
 
@@ -108,20 +108,20 @@ Voces Creo is a chamber choir based in Dublin, Ireland, and was founded in 2020.
 ### Compatibility Testing
 
 - Firefox
-    - Website functions as normal
+    - Website functions as normal.
 
 - Chrome
-    - Website functions as normal
+    - Website functions as normal.
 
 - Microsoft Edge
-    - Website fucntions as normal
+    - Website fucntions as normal.
 
 ### Validator Testing
 
 - HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html).
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/)
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/).
 
 ### Lighthouse Testing
 
@@ -150,8 +150,8 @@ The live link can be found here - https://celine-14.github.io/first-portfolio/
 
 ### Content
 
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
-- The fonts were imported from [Google Fonts](https://fonts.google.com/)
+- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/).
+- The fonts were imported from [Google Fonts](https://fonts.google.com/).
 
 ### Media
 
@@ -160,4 +160,4 @@ The live link can be found here - https://celine-14.github.io/first-portfolio/
 
 ### Font
 
-- The inspiration behind the font pairing is taken from [Reliable](https://heyreliable.com/ultimate-google-font-pairings/)
+- The inspiration behind the font pairing is taken from [Reliable](https://heyreliable.com/ultimate-google-font-pairings/).
