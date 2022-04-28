@@ -97,7 +97,7 @@ h2 {
     font-weight: 200;
     text-align: center;
     padding-top: 25px;
-    margin: 0 auto;
+    margin: 0 auto 50px;
     color: #fff;
     text-shadow: 2px 2px 5px #37454d;
 }
@@ -105,9 +105,9 @@ h2 {
 #choir-biography p {
     font-size: 150%;
     text-align: justify;
-    line-height: 2em;
-    margin-top: 50px;
+    line-height: 1.5em;
     text-indent: 40px;
+    margin-bottom: 15px;
 }
 
 /* gallery */
@@ -358,6 +358,14 @@ footer {
     #photos {
         column-count: 2;
     }
+
+    #choir-biography {
+        padding: 50px 50px 75px;
+    }
+
+    #choir-biography p {
+        font-size: 120%;
+    }
 }
 
 /* for medium and small screen size from 925px wide and down */
@@ -379,15 +387,17 @@ footer {
         padding: 1px 50px 25px;
     }
 
+    #choir-biography h2 {
+        margin-bottom: 30px;
+    }
+
+    #choir-biography p {
+        font-size: 100%;
+    }
+
     #choir-biography h2,
     .contact-us h2 {
         font-size: 190%;
-    }
-
-    #choir-biography p,
-    .contact-us p {
-        font-size: 110%;
-        margin-top: 40px;
     }
 
     #gallery {
@@ -402,6 +412,11 @@ footer {
 
     .social-networks i {
         padding: 0 30px;
+    }
+    
+    .contact-us p {
+        font-size: 100%;
+        margin-top: 40px;
     }
 
     .text-input,
@@ -437,6 +452,10 @@ footer {
         line-height: 20px;
         float: left;
         clear: left;
+    }
+
+    #choir-biography p {
+        font-size: 80%;
     }
 
     #photos {
@@ -495,7 +514,7 @@ footer {
     }
 
     #choir-biography p {
-        font-size: 90%;
+        font-size: 60%;
     }
 
     #photos {
